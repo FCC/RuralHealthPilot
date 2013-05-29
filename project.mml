@@ -1,0 +1,68 @@
+{
+  "bounds": [
+    -171.9,
+    11.6,
+    -59.5,
+    71.8
+  ],
+  "center": [
+    -105.7024,
+    39.2694,
+    6
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "Pilot",
+    "template_teaser": "<center>{{{applicatio}}}<br>\n<hr width=\"95%\"></center>\n<b>{{{hcpname}}}</b><br>\n{{{hcpaddr_ci}}}, {{{hcpaddr_st}}} <br>\n<em>HCP Type:</em> {{{hcptype2}}}<br>\n<em>Rural/Non-Rural:</em> {{{rural2}}}<br> \n<em>Service Speed:</em> {{{maxofsvcsp}}}  {{{mbps}}}<br>\n",
+    "template_full": "",
+    "template_location": "",
+    "fields": [
+      "applicatio",
+      "hcpname",
+      "hcpaddr_ci",
+      "hcpaddr_st",
+      "hcptype2",
+      "rural2",
+      "maxofsvcsp",
+      "mbps"
+    ]
+  },
+  "minzoom": 3,
+  "maxzoom": 14,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "data.mss",
+    "data-colors.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "point",
+      "extent": [
+        -176.6965449999999,
+        13.27681000000011,
+        145.72434200000012,
+        67.41297800000014
+      ],
+      "id": "Pilot",
+      "class": "",
+      "Datasource": {
+        "file": "./rhcpp_nov12.geojson",
+        "id": "Pilot",
+        "project": "RuralHealthPilot",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "Pilot"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "fcc.map-fd8wksyc",
+  "name": "Rural Health Care Pilot Program",
+  "description": "This map shows participants in the FCC's Rural Health Care Pilot Program who have received commitments for funding as of January 2012. Green and Red triangles depict entities that are health care providers eligible for Pilot Program support under the Communications Act of 1934.  The map also shows health care providers who are not eligible for Pilot Program support, but pay full cost to participate in Pilot Program networks. Not all locations are visible at a national scale, use the map control to zoom in to display further detail. This map was created by the FCC based on data submitted to the Universal Service Administrative Company by the Pilot participants.  To learn more about the Pilot Program, visit http://www.fcc.gov/encyclopedia/rural-health-care-pilot-program .",
+  "attribution": "FCC",
+  "legend": "<p align=\"center\"><strong>Rural Health Care Pilot Program</strong><br>\nCoverage by Type of Health Care Provider and Bandwidth Speed</p>\n<table width=\"95%\">\n<tr style=\"border: 0px !important;\">\n<td valign=\"center\">Rural</td><td valign=\"center\">Non-Rural</td><td> </td>\n</tr>\n<tr style=\"border: 0px !important;\">\n<td width=\"50\"><img align=\"center\" src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAE5SURBVCiRhZK9SwIBGMZ/mh+oTU4NlRQ3eIpCiyi1iegQhINTgw7+DTk0iOAWNEhbIAiBgzql6CSC0o1OaS7XKCiCoAXi2bUoSJz2jM/7/Hh5P3SqqrJDB8Dqr2nYEXYC54AMfGwX9Bphe0/uBDJPoeee3AkA9n2ADnDXW7kEqqqvt3IJwL32NYHjppT3z+Zjz+3Nw91sPvY0pbwfONYCDAqKKHUrScHhKwqnF0PB4StK3UpSQRE3824DQrmaDSurpS0WSdeAt1gkXVNWS1u5mg0DwjZgnUyHrr7cjnudwYLZbB0A32azdeB1Bgt9uR2fTIcuwLoBxFIjEzMZLaNoKCUBInANiNFQSjIZLaNSIxMDRMO6y9Fo8nm5WHyd3D9evWqsmtXP8hB40a0vfbZe33961+15DU39ApYUbEF8mFJyAAAAAElFTkSuQmCC' /></td>\n<td width=\"50\"><img align=\"center\" src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEtSURBVCiRhVI/a8JwEH2xgvCjk1NBO9Qs8e+gDmqcO5hu+QA6uGbtJ9DRKZsOaaSQWbr+voCLk5WKIEaEkqlDTRBJvS5RikT74C139+54dycQES7gBsDPeTB6oVgCkAKwBPDxNxEJKY6vOK++FHKDFedVAPFrAgFAdtzttOiAyLjbaQHIBvFQQXKi6xXPcfKP/f6z5zj5ia5XACTDBFH4fnpqGu1EXbYStdpnoi5bU9Now/fTJ79EdKTENa1nFHKbnes2iIjtXLdhFHIbrmk9IpKI6DSBbW07s+a8KSqKGWNsDsCLMTYXFcVcc97c2nYGADt2L41U1RqWizMiejrnsFycjVTVIqJSNPBx97VYyPvt9/1ATL2FHeaw928BvArBpR+C9f2Hd+HKa4TiFwrvknkQtjlCAAAAAElFTkSuQmCC' /></td>\n<td>Commitments</td>\n</tr>\n<tr style=\"border: 0px !important;\">\n<td><img align=\"center\" src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADzSURBVCiRhZLPygFhFIefwcqSjWTzSTLcACk7uQJrFm5kyhXITrkB7BQrKWqWVvhWrx311WhsfOjVWJipN734Lc/5Ped0/hie5/FGYeD+Goy8MeeANCCAXzUR0phjG7EsWd1qbyOWJSD2CTCAwmTead5u/8nJvNMECn5cC6Rmdr94dPcVgKO7r8zsfhFI6YCIRJr2atRSK9irUUsizWBeFcgMx+3a+XLKqsD5csoOx+0akFGBqOMe8luxaGiWwFYsGo57yAPRADAHU6su5TWuA6S8xgdTqw6YIb9L4s/ZlXXmQH4+YfiX/uG5vm9aGx9eQ6sHfB5Yilcb/BsAAAAASUVORK5CYII=' /></td>\n<td><img align=\"center\" src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAD7SURBVCiRfZK9agJBFIW/NVaW2ljYKCJZDamV4E/nE1jb+AS7j7JdUqidDzEKvoCVgYAQ3HmBFbFwYcJNswtjMnpgmnvON/fOjyci3NET8PO3WLwTfgYawDfwZRsFR7h8VKq3eH35OCrVA8o3rojYyxOR/mo03L436rIaDbci0s/qiMi/DrVdFHXPWg8AzloPdlHUBWqukYoY4++X85m9w345n2GMn5/XBprrIBinyallA2lyaq2DYAw0baB0ieO2VmrquAS0UtNLHLeBUg74mzCcmPRacQEmvVY2YTgB/ELWpZocDm+ucK7Mr3rZS9eBziMg06f34Gs49Qt6L25Yw6PELwAAAABJRU5ErkJggg==' /></td>\n<td>Disbursements</td>\n</tr>\n\n<tr style=\"border: 0px !important;\">\n<td><img align=\"center\" src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFZSURBVCiRlZE9S0IBFIYf5f4DodFBNwe/CLHEQBxuYVIG1g+wxf6A4dBUSNYQBd4+aIiCipaGgjQKypSKPtDwDlFURhhB/yA4LffCXT3LWZ735T3vsYkI3YwCOAE38APogNXBBniAHuAVaNsBd2E1uVyuaiOAz4BM2Hda3xguaMkVwxQF+Al5R7cvbnfyAGo0C9AAfJXa+uDV/e50JDBeNBKgAHq8P6MAWESOSnUtdPW4l4sExotqNHtsxEUxMjfj/RlM0WdHP2x3nlKR4MS8ATfN2xQjrylytL/1g5f3m0mXM7ClRrPXVhjAbjnQe1bf7H1rP6RdzsDWx9dTqlzVwoDXUgSKBVYv7nbyfcH0wtDA1HW5qj3XHvZzliKagCiAx4TD/rHFoYGpY6ChRrO/ABbRH9BCRGJzWqJ1dL40IyJ+EbGJCMb2n1yW8rOlhC4iMRHBJiJdffofcwSixD7LrX8AAAAASUVORK5CYII=' /></td>\n<td><img align=\"center\" src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEoSURBVCiRlZG9SsNgFIbfBK/BwUHQgl+x0BTa1K5tFxFBRB2ioHdRaBWHIjbf0B90iwajEW9AvQUlqRVE7ObiInaqV/C6JOWzuvRsh/M8h/OjkcQkMQVgFkACwABAH4DaQQOwCGAawDuADx1A4jpvnoRSrgEwIiiGjV6rternzdOoKXQAg+T2jv/qXVRCKVcUyeg2m8svjlMVG5s30QQASY2k0W23K+dJMQxsu0ayHEpZdcUoNyIOIPlHurUszxUL3+OwKsRS6X5v98yZn+OdZXkkSypMErqyYPqp08l9BsHWzFLh8uu5tx5KWQCQVg7xewdXiOFjo7FPshzYdu2/sUAyNYKPjw5IZqJiZkxKxULRN7NvD/X6oQJDla5y2T7JIkloJCf69A+Q+fNQzbTMMwAAAABJRU5ErkJggg==' /></td>\n<td>RHCPP-ineligible HCPs</td>\n</tr>\n</table> \n<style type=\"text/css\">\n .wax-legend {\n  max-width: 300px !important;\n  max-height:300px !important;\n}\np.fcclegend {\nfont-size:95% !important;\nline-height:95% !important;\n}\np.fccsmall {\n font-size:65% !important;\n line-height:90% !important;\n}\n</style>\n\n<small>Facility locations approximate. Data current as of 11/15/2012</small>\n<br>\n",
+  "version": "1.0.0"
+}
