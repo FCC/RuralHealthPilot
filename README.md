@@ -35,5 +35,5 @@ Users can reproduce the map. This repository is a complete project folder for Ti
 
   
 [rhcpp]: http://www.fcc.gov/encyclopedia/rural-health-care-pilot-program 
-[rhcmap]: http://a.tiles.mapbox.com/v3/fcc.map-pxxbakrr 
+[rhcmap]: http://tiles.mapbox.com/fcc/map/map-pxxbakrr 
 [tilemillurl]: http://www.mapbox.com/tilemill/ 
