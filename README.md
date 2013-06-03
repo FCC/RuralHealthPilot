@@ -1,6 +1,6 @@
-# RuralHealthPilot -  Rural Healthcare Pilot Program Map 
+# RuralHealthPilot -  Rural Health Care Pilot Program Map 
 
-This is a project provides a dataset and a map that displays facilities in the Rural Healthcare Pilot Program. The source data is available as a geoJSON file, and the source to develop the map is available for use in TileMill or similar cartoCSS aware tools.
+This a project provides a dataset and a map that displays facilities in the Rural Health Care Pilot Program. The source data is available as a geoJSON file, and the source to develop the map is available for use in TileMill or similar cartoCSS aware tools.
 
 For more information about this program, please [visit the FCC page][rhcpp].
 
@@ -10,7 +10,7 @@ This project is one of a number of visualization tools being investigated to com
   
 ## Data
 
-The map source data is included in the top level of the repo, called: rhcpp_nov12.geojson  Each record represents a single facility in the RHC Pilot Program. Spatial location was determined (geocoded) from the facility addressed entered by the applicant. As many facilities are located in rural areas, locations are approximate. 
+The map source data is included in the top level of the repo, called: rhcpp_nov12.geojson  Each record represents a single facility in the RHC Pilot Program. Spatial location was determined (geocoded) from the facility street address that was entered by the applicant. All locations on the map are considered approximate and should only be used to visualize general patterns of the RHCPP facilities. These data are not intended to serve as navigation aides to health care facility locations. The map source is derived from USAC records, and was specifically prepared to be in a format of one record per facility. 
 
 **Fields in the dataset:**  
 - hcpnum: primary identifier for the each facility  
@@ -29,7 +29,7 @@ The map source data is included in the top level of the repo, called: rhcpp_nov1
 - mbps: text field shows “mbps” for use with TileMill Tooltip.
   
 ## Map
-The map can be viewed live in your browser, or recreated using the free TileMill mapping tool.  To view the composite map, please see the [Mapbox hosted Map][rhcmap]. 
+The map can be viewed live in your browser, or recreated using the free TileMill mapping tool.  To view the interactive map, please see the [Mapbox hosted Map][rhcmap]. 
 
 Users can reproduce the map. This repository is a complete project folder for TileMill software. To use, install [TileMill from MapBox][tilemillurl] and copy this repository into the ~Mapbox/project/ folder and launch TileMill. 
 
