@@ -38,10 +38,10 @@
     {
       "geometry": "point",
       "extent": [
-        -176.6965449999999,
-        13.27681000000011,
-        145.72434200000012,
-        67.41297800000014
+        -176.69654499999984,
+        13.276810000000106,
+        145.724342,
+        67.41297800000012
       ],
       "id": "Pilot",
       "class": "",
@@ -51,8 +51,8 @@
         "project": "RuralHealthPilot",
         "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over"
       },
-      "srs-name": "900913",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
       "advanced": {},
       "name": "Pilot"
     }
